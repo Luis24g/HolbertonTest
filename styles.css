@@ -1,0 +1,22 @@
+h1 {
+    text-align:center;
+}
+a:hover{
+    color: rgb(255,28,62);
+}
+footer{
+    padding-top: 800px;
+    text-align: center;
+    
+}
+.titulo{
+    text-align: left;    
+    color: rgb(255,28,62);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.articulos{
+    padding: 5vh;
+    
+}
