@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 body,main{
 display: flex;
+=======
+body{
+    display: flex;
+}
+h1 {
+    text-align:center;
+>>>>>>> bf0f9b899674bbe19b67e4de635832069e752b92
 }
 
 body{
