@@ -1,22 +1,80 @@
-h1 {
-    text-align:center;
+body,main{
+display: flex;
 }
+
+body{
+    flex-direction: column;
+    height: 100vh;
+    width: 180vh;
+}
+
+main{
+    flex-direction: row;
+    flex: auto;
+}
+
+li{
+    font-size:large;
+}
+
+
 a:hover{
     color: rgb(255,28,62);
 }
+
+
+
+article{
+   
+    flex: 4;
+    overflow-y: auto
+}
+
+aside{
+   
+    flex: 2;
+    overflow-y: auto
+}
+
 footer{
-    padding-top: 800px;
+    padding-top: 500px;
     text-align: center;
     
 }
 .titulo{
-    text-align: left;    
+    text-align: center;    
     color: rgb(255,28,62);
-    padding: 20px;
-    font-size: 20px;
+    margin-bottom: 30px;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .articulos{
     padding: 5vh;
     
+}
+
+img{margin-left: 75px;
+    border: 5px solid #555555;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow:hidden;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.image-big{
+    position:absolute;
+    top:25%;
+    left:25%;
+    background: rgba(0,0,0,.9);
+    border: 5px solid #555555;
+    border-radius: 5px;
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
 }
