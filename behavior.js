@@ -6,4 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         thumbnailElement.className = thumbnailElement.className === 'small'?'image-big':'small';
       });
 
+     
+
+   
 });
